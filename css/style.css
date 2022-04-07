@@ -10,6 +10,8 @@ a{
 body{
     background-color: black;
     color: white;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 header{
     height: 40px;
@@ -40,12 +42,27 @@ main{
     padding-top: 40px;
     text-align: center;
 }
-main img{
-    margin: 8px 3px;
+.utente{
+    position: relative;
+    width: 150px;
+    height: 75px;
+    margin: 0 4px;
+    font-size: 13px;
+}
+.utente i{
+    margin-right: 5px;
+}
+.nome{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #4a4a4a;
+
 }
 .row{
     display: flex;
     justify-content: center;
+    margin: 8px 0;
 }
 
 
