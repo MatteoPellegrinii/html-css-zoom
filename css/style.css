@@ -42,14 +42,16 @@ header div a{
 main{
     height: calc(100vh - 60px);
     padding-top: 40px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     overflow-y: scroll;
 }
 .utente{
     position: relative;
     width: 150px;
     height: 75px;
-    margin: 0 4px;
+    margin: 10px 4px;
     font-size: 13px;
 }
 .utente i{
